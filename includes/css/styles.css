@@ -1,0 +1,290 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #feature{
+      margin-top: 5px;
+      color: brown;
+      width: auto;
+      
+   }
+   #features{
+      margin-top: 5px;
+      margin-right: 0px;
+      margin-left: 40px;
+      border: none;
+      background-color: white;
+   }
+#features .feature .panel img{
+   margin-top: -10px;
+   margin-bottom: 15px;
+   width: 200px;
+   height: 150px;
+}
+.panel{
+   width: 300px;
+   border: none;
+}
+.panel-heading{
+   background-color: white;
+   border: white;
+   align-content: center;
+}
+.tabable{
+   margin-right: 0px;
+   margin-left: 40px;
+   padding-right: 0px;
+   padding-top: 10px;
+   
+}
+#info{
+   
+   
+}
+ .thumbnail{
+   width: auto;
+}
+.shoeback{
+   margin-top: 150px;
+   padding-left: 40px;
+   padding-right: -10px;
+   margin-bottom: 0px;
+   margin-right: -10px;
+   width: 98%;
+}
+.subhead
+{
+   margin-top: 20px;
+}
+.thumbnail{
+   position: relative;
+}
+.thumbnail h3{
+   font-size: 16px;
+   margin:0 0 10px;
+   line-height: 20px;
+}
+.thumbnail .price{
+   font-size: 22px;position: absolute;top:-10px;right: -10px;padding:10px; 
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+#men{
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+#menhead{
+    padding-left: 20px;
+   color:#0d0770;
+}
+
+.apparel{
+   background-color:blue;
+}
+#men img{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.shoebody{
+   background: url('../../images/back.png');
+}
+
+
+/* --------------------------------------
+   Navbar
+   --------------------------------- ----- */
+   .navbar{
+      height: auto;
+      background:url('../../images/banner.jpg');
+      
+   }
+
+   .toplist{
+      padding-left: 10px;
+      padding-right:20px;
+      padding-top: 60px;
+   }
+   .toplist li a{
+      font-size: 14px;
+      color: #000000;
+      opacity: 1.2;
+      background-color:#eff4fc;
+      font-family: sans-serif;
+   }
+   .navaccount{
+      padding-top: 60px;
+   }
+   .navaccount li a{
+      font-size: 14px;
+      color: #000000;
+     
+      background-color:#eff4fc;
+      font-family: sans-serif;
+   }
+   .navbar-brand{
+       padding-top: 0px;
+       padding-bottom: 0px;
+       padding-left: 0px;
+
+   }
+   #nav a:hover{
+      background-color:#040507;
+      color: white;
+   }
+   .hell{
+      margin-left: 40px;
+     
+   }
+  
+   .trend{
+      padding-top: 100px;
+
+   }
+   .trend h3{
+
+      font-family: cursive;
+      color: #78a3e8;
+      text-align: center;
+      font-size: 40px;
+   }
+   .trend h3 small{
+      font-size: 28px;
+   }
+   .watch{
+      height: auto;
+      width: auto;
+   }
+   .trend img{
+      height: auto;
+      width: auto;
+      
+   }
+   .imag{
+      align:center;
+   }
+   .hello h4{
+      font-size: 38px;
+      font-family: sans-serif;
+      color: #0d0770;
+   }
+   
+   .trending{
+      align-content: center;
+      margin-left: 40px;
+      
+   }
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#mycarousel .item{ height:430px; padding-right: 0px;}
+#slide1{
+   background:url("../../images/slide1.jpg")center no-repeat;
+}
+#slide2{
+   background:url("../../images/slide2.jpg")center no-repeat;
+   width: auto;
+}
+#slide3{
+   background:url("../../images/slide3.jpg")center no-repeat ;
+}
+.carousel{
+   margin-top: 80px;
+   padding-top: 70px;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.footer{
+      margin-left: 2px;
+     background-color: #87876E;
+     color: White;
+     width: 98.7%;
+    
+
+}
+.footer a {
+    color:white;
+}
+
+.end
+{
+    margin-top: 0px;
+    padding-left: 5px;
+}
+.middle,.right1{
+    text-align:left;
+}
+#side img{
+   border:1px solid black;
+}
+.foot {
+   padding-left: 10px;
+   width: auto;
+}
+.end{
+   /*width*/width: auto;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+   
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+
+#mycarousel .item{ height:310px; }
+#slide1{
+   background:url("../../images/slide1_small.jpg")center no-repeat;
+}
+#slide2{
+   background:url("../../images/slide2_small.jpg")center no-repeat;
+   width: auto;
+}
+#slide3{
+   background:url("../../images/slide3_small.jpg")center no-repeat ;
+}
+
+
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#mycarousel .item{ height:430px; width: auto; }
+#slide1{
+   background:url("../../images/slide1.jpg")center no-repeat;
+}
+#slide2{
+   background:url("../../images/slide2.jpg")center no-repeat;
+   width: auto;
+}
+#slide3{
+   background:url("../../images/slide3.jpg")center no-repeat ;
+}
+
+}
